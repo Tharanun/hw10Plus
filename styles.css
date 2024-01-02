@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.user-list {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: #007bff;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+li:hover {
+    color: #0056b3;
+}
+
+.post-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.post-item h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.post-item p {
+    color: #777;
+    line-height: 1.6;
+}
